@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.margin-auto{
+    display: block;
+    margin: auto;
+}
+.container{  
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+/* nav */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+
+  }
+.navbar  li {
+    float: right;
+    
+  }
+.navbar  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+.navbar  li a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+.btn-contact{
+    padding: 5px 10px;
+    border: 0px solid white;
+    background-color: #292b2c;
+    color: white;
+    font-family: 'Montserrat', sans-serif;;
+}
+.btn-contact:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/* home */
+.home{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    align-items: center; 
+}
+.home-one h4{
+    line-height: 25px;
+}
+.home-one h1,h2,h3,h4{
+    font-weight: 200 !important;
+    margin: 5px;
+}
+.home-two{
+    width: 90%;
+    max-width:300px;
+    justify-self: end;
+
+}
+/* About */
+.about{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    align-items: center; 
+}
+.about-one h4{
+    line-height: 25px;
+}
+.about-one h1,h2,h3,h4{
+    font-weight: 200 !important;
+    margin: 5px;
+}
+.about-two{
+    width: 90%;
+    max-width:300px;
+    justify-self: start;
+
+}
+/* Skills */
+.skills{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    align-items: center; 
+}
+.skills-one p{
+    line-height: 25px;
+}
+.skills h1,h2,h3,h4{
+    font-weight: 200 !important;
+    margin: 5px;
+}
+.skills-two{
+    width: 90%;
+    max-width:300px;
+    justify-self: end;
+}
+.skill-bold{
+    font-weight: bold;
+}
+/* education */
+.education-logo{
+    width: 100px;
+}
+/* Projects */
+.projects{  
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    align-items: center;
+    grid-gap:5px;
+    
+}
+.projects-one{
+    width: 90%;
+    max-width:200px;
+    justify-self:center;
+}
+.projects-one:hover{
+    transform: scale(1.1);
+}
+/* contact me */
+.contact-one{
+    border-radius: 50%;
+    width: 240px;
+    box-shadow: 5px 5px 10px black;
+    display: block;
+    margin: 30px auto;
+}
+.contact-one:hover{
+    box-shadow: none;
+}
+
+.contact-info{
+    line-height: 22px;
+}
